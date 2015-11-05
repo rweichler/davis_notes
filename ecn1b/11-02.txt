@@ -1,0 +1,185 @@
+the fed gives reserves to banks. HOW!??!??
+the fed goes to the marketplace and buys bonds from the banks. the fed gives the banks $$$$$$$. bye bye go home we are done
+
+
+discount loan: the money that the fed loans to the bank.
+
+
+Which Tool Does the Fed Use Most Often?
+Required Reserve Ratio? no. it's a very powerful tool, the amount of money out there can go up by crazy since banks have so much $$$. so they dont change it often. they mostly leave it alone
+Discount Rate? no. discount loan = fed lends money to the bank, bank loans it to people. its unpredictable because the banks might not want to borrow the money.
+Open Market Operations? yes. they use this shit every day bruh. try to keep interest rates stable. if they make a mistake its easy to reverse. if they purchase too many bonds they can just sell them right back with minimal loss.
+
+Excess Reserves of Depository Institutions.
+
+WENT UP LIKE FUKING CRAZY in Sept. 2001. stayed around 0.5B in 1959 and gradually raised to 1B in 2000. in 2001 it went up to 19B. Alan Greenspan pumped 20B into the system
+
+its jumped up to 2 TRILLION by 2014
+
+Chapter 09: Long Run & Short Run
+
+Velocity of Circulation of Money
+
+supposed beginning of jan 2015, clown pays $1 to the butcher and buys $1 worth of meat. the butcher gives the farmer $1 and gets $1 worth of fruit.
+
+with $1, society bought $2 worth of goods
+
+then the farmer pays some door repair dude $1, and gets $1 worth of service. the repair guy buys $1 worth of bread. the bread chick buys $1 worth of obamacare
+
+WITH $1, WE PURCHAED $5 WORTH OF GOODS AND SERVICES
+
+in this example $1 changes hands 5 times $1 plays the role of $5
+
+velocity of ciruclation of money = 5
+
+total value of goods purchaesd = P * Y = $1 * 5
+
+money supply = M = $1
+
+V = P*Y/M = $1 * 5 / $1 = 5
+M*V = P*Y
+
+what is Y!?!?!?!? REAL GDP
+P = GDP deflator
+P*Y = NOMINAL GDP
+M = the amt. of money out there
+V = the VELOCITY
+
+Example:
+P = $100
+Y = 500
+Nominal GDP = $100 * 500 = $50,000
+
+u need less $$$ to get that $50k because the same money can be exchanged multiple times
+
+assume V = 5
+
+$10k * 5 = $100 * 500
+
+so u only need $10k in circulation to supply the $50k GDP
+
+
+
+            -----
+        ---      ----
+      --   *    *   --
+      --   ______   --
+       --          --
+         --      --
+           ------
+
+
+
+
+
+M2 Velocity = Nominal GDP/M2
+
+yeah dude just replace the numbers
+its physics man
+but for money
+money physics
+
+
+
+Implication of constant Velocity
+
+EQUATION OF EXCHANGE!??? idk he wrote it on the board
+
+if velocity is constant and fed increases monetary supply by 10%, then nominal GDP will increase by 10%
+
+
+In the Long Run (approximately)
+
+m = pi + g
+
+5% = 3% + 2%
+7% = 5% + 2%
+
+pi = m - g
+
+m is money supply
+
+
+why do countries have lots and lots of inflation? they created a lot of money supply.
+
+increasing money supply wont do shit to the potential GDP.
+
+potential GDP is affected by labor productivity, population increase, and % of people working
+
+Complete Long Run Model: Example
+
+m = 6%
+
+how much is the inflation rate (in the long run)? cant tell, we need to know the GDP growth rate
+
+g = 2%
+
+now we can: pi = 6% - 2% = 4%
+
+
+r = 1%
+
+u(n) = 5%
+
+p = 6% - 2% = 4%
+
+nominal interest rate: R = 1% + $% = 5% 
+
+u = u(n) + u(c) = 5% (we have no cyclical unemployment)
+
+*Money is Neutral*
+
+classical economists: people that believe that the system will self-correct and the govt shouldn't intervene
+
+Keynes: "In the long run we are all dead" - the govt needs some sort of policy to get us out of the recession. we cannot wait for the capitalist system to sort itself out because actual people are living their lives during this time.
+
+
+Why does the real GDP go lower than the potential????? WHY!?!?!?
+
+
+Wage-Price Flexibility and the Role of Demand
+
+
+Y = 100
+P = $10
+L = 4
+W = $200
+
+luigi has a pizza place. every day he produces 100 pizzas. he charges $10 per pizza and he sells 100 pizzas per day.
+
+he hires 4 workers to produce those pizzas. he pays them $200 per day.
+
+Profit = P*Y - W*L - (Other costs)
+
+if you're luigi, do you care about the money you take home (nominal) or the shit you can buy with the money (real)?
+
+real (obviously)
+
+Real Profit = Profit/P = Y - (W/P)*L
+
+Real Profit = 100 - ($200/$10) * 4 = 20 Pizzas
+
+in essence, paying the workers 20 pizzas (80 pizzas total), and i get 20 pizzas profit leftover
+
+
+if the pizzas demand goes down to 50, if i lower my price by 20% to $8 i can sell 100 pizzas again
+you keep your job, but i need to pay you less
+
+Real Profit = 100 - ($160/$8) * 4 = 20 pizzas
+
+in essence, you're still paying the workers 20 pizzas (80 pizzas total, and i get 20 pizzas profit leftover
+
+the only difference is that the pizza is worth less
+
+IMPORTANT DEFINITION:
+
+when demand went down, what happened? i could quicky reduce my price of pizza by 20%, same # of people, same real wage, sell 100 pizzas. NO RECESSION.
+
+DIS IS "WAGE AND PRICE FLEXIBILITY"
+
+wages and prices are said to be fully flexible (they can go up and down) if they move fast enough to clear the labor market. AKA we always have full employment.
+    as soon as demand falls, prices fall and wages fall, still have full employment.
+
+when wages and prices are fully flexible, they go up and down..
+
+demand for goods do not have any effects on the production

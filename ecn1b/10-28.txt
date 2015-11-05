@@ -1,0 +1,62 @@
+Required Reserve Ratio: % of money deposited into a bank you need to keep reserved
+    set by the Federal Reserve
+    banks *cannot* loan it out
+    they  keep it at the federal reserve
+
+maturity mismatch is the cause of financial crisis
+what if many people came to the bank to withdraw their money
+    6k people come in to get their money
+    bank doesnt have the money
+    bank goes bankrupt
+    the fed takes over the bank
+    ppl with loans still owe
+
+1. What is the banks' incentive to lend?
+    Money from interest
+    if they could, they'd loan all their money outo
+
+maturity mismatch = someone wants to withdraw, but the money is currently being lended out to someone long term
+
+banks have incentive to lend out risky loans
+    FDIC insured
+    riskier loans have higher interest rate
+    its not their money
+
+Basic Idea Behing Balance Sheel
+EVERYONE has a balance sheet. Yes, even You!!!!!!!!!!!!!!
+Uses of Funds = Sources of Funds
+What you bought with the money = Where you got the money
+Assets = Liability + Net Worth
+Home Value = Loan Value + Equity Value
+$1M = $800K + $200K
+
+Banks also have a balance sheet
+a bank's liability is the deposits (since they're money you loaned them)
+
+exam question: federal fund market is called it beacuse the banks have accounts with the fed
+    when they borrow money from each other, they borrow against those accounts
+
+borrow from other banks: Federal Funds markets
+borrow from the fed    : discount loans
+net worth = bank capital
+
+the required reserve ratio is from EVERYTHING including loans not just assets
+
+bank assets include reserves, treasury bonds and loans
+bank liabilities + net worth include depposits, borrowing, and bank capital (aka net worth)
+
+nother exam Q: a "fully loaned out" bank means that the excess reserves will be 0
+
+Two major functions of the Fed:
+1: Prevent Financial Crises
+TOOLS:
+    Required Reserves from banks
+    Discount Loans
+        when the banks go into the trouble, the fed comes to the rescue and lends them money
+    Bank Capital Regulation
+2: Control the supply of money through monetary policy (Normal Times)
+    Monetary policy means changing the supply of money thru the fed
+TOOLS:
+    Open Market Operations
+    Discount Rate
+    Required Reserve Ratio

@@ -1,0 +1,188 @@
+GDP Also Equals Total Expenditure
+
+AKA equals the amount of money people spend on shit too
+
+What happens to the goods and servicess produced?
+
+    What kind of things produces these things?
+        Firms, Households, government
+    What happens to the things we produce?
+        They're sold or not sold
+
+
+
+Does it count in GDP?
+
+            Sold    Not sold
+Firms       A       B
+Households  C       D
+Government  E       F
+
+A: count in at market prices
+B: count in at market prices (as if producers themselves buy them) (changes in inventories)
+C: count in at market prices
+D: does not count in GDP
+E&F: count in at cost of providing the service
+
+only D does not count in GDP
+
+we categorize consumers into 4 different groups:
+    households, firms, ogovernment, foreign counties
+
+example dude making bread
+
+intermediate good: flour and shit: $50
+value added: cooking the bread: $60
+final goods: $110
+
+value added = wage + interest+ rent + profit
+
+breh breh brehbreh breh breh breh breh breh breh breh breh breh breh breh
+
+the intermediate good also has its own intermediate good and value added
+
+e.g. the bread has an intermediate good that costs $20
+and the value added was $30
+
+and then THAT intermediate good also has ITS own shit
+e.g. the intermediate good is $0 and the value added was $20
+
+since theres so much shit, you only count the final good, which uis $110
+
+you could also add up all the value added's
+
+GDP = tital factor income (income made by factors of production as a result of producing the goods and services comprising GDP)
+
+HOW ABOUT CAPITAL GAINS!!?!?!?!??!?!?!?!
+
+gapital gains = money madfe on investments
+
+they dont go into the fuking GDP u fuking retard are u fukin dum no shit was made
+
+GDP = value of production = total expenditure = total factor income
+
+Production
+    total value of goods and services produced
+    GDP = P1*Q1 + .....
+
+Expenditure
+    FUCK I MISSED THE REST
+
+Income
+    FUCK FUCK
+
+
+
+CHART TIME (real GDP at constant 2009 prices (base year = 2009))
+
+Nominal and Real GDP
+Year    P1      Q1      P2      Q2      Nom GDP     Real GDP
+2008    $5  *   2   *   $10 *   $4  =   $50         $60
+2009    $6  *   4   +   $12 *   5   =   $84         $84
+2010    $8  *   6   +   $15 *   6   =   $138        $108
+
+
+to get the real GDP, we use the same quantity, but use base years price
+so for this instance, we use the $6 and $12 from 2009
+
+real makes u visualize the quantity of shit produced
+
+nominal wage: kinda like you get paid $100k a year in the bay vs $60 k a year in portland
+but portland might have better real wages cuz the cost of living in the bay is a fukton
+but the bay still has better nominal wages
+
+nominal is basically who gives a fuk, tell me the REALity
+
+economic growth = long term incerase in real GDP
+
+FRED = federeal reserve economic data
+
+Price Index:
+
+$20     *       5 Pizzas    =   $100
+nominal expenditure = $100
+real expenditure = 5 pizzas
+
+Price = nominal/real = $100/(5 pizzas) = $20
+
+GDP Deflator
+
+(Nominal Thing) = Price * (Real Thing)
+Nominal GDP = (GDP Deflator) * (Real GDP)
+
+SOMETHING ANNOYING: in published data,
+GDP Deflator = (Nom GDP)/(Real GDP) * 100
+
+from that chart above, the GDP Deflator is:
+
+2008: 50/60 * 100 = 83
+2009: 84/84 * 100 = 100
+2010: 138/108 * 100 = 128
+
+GDP and Welfare: Is GDP a good indicator of the welfare (wellbeing) of a nation?
+
+1. Real GDP is more relevant to well-being
+2. Real GDP per capita is even better
+3. Silent about distribution of GDP
+4. Includes things that we don't consume (like what?)
+    (includes anti aircraft misiles)
+5. Excludes things that we dont consume (like what?)
+    imported french wine and shit
+6. "Bads" are not accounted for (like what?)
+    weed, LSD, coke, AK47s shit like that
+7. Intangibles are not included (examples?)
+    leisure time, health
+
+Consumer Price Index
+
+CPI in a year = (cost of buying the basket in that year) / 
+                (cost of buying the basket in 1984-84)
+                        * 100
+
+GDP deflator is a fantasy word for the average price of all the goods that are in the GDP
+
+it is not a good example of the average income
+    it includes a lot of items we dont use
+    it excludes things we buy (like imports and drugs)
+
+back to the CPI
+
+the basket is about a bunch of shit that most ppl buy like bananas and gamecubes and shit, and they figure out how much that entire basket costs
+
+
+
+CHART TIME
+
+for 1982-84
+Basket      Quantity        Price       Cost of Living
+
+Apples      10              $2          $20
+Bread       20              $1          $20
+Cheese      15              $3          $45
+Donuts      5               $1          $5
+Total                                   $90
+
+now do it for different years, but keep the quantity the same
+
+for 2008: 
+price       COL
+2.40        24
+1.20        24
+3.60        54.00
+1.20        6
+total       108
+
+2015
+price       COL
+2.52        25.20
+1.26        25.20
+3.78        56.70
+1.26        6.30
+total       113.40
+
+
+problem with this, cuz now we have iPhones and tofu but we didnt have those in 1984
+
+the CPI is fuking insanely going up BTW
+
+the 100 is a base year, 82-84

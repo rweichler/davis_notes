@@ -1,0 +1,146 @@
+FIRST DAY
+
+you have 10 weekly homeworks, due mondays before class at 5PM
+
+read chapter 1 on your own, and read the chapter before thanksgiving on your own
+
+everything else is in lecture
+
+CH 2: GDP
+
+The Great DepressIon (1929-39)
+
+AKA long & deep recession
+hooverville: neighborhood of shacks, named after herbert hoover
+
+wages went down by a shitton collectively
+
+industrial production & farm = 50%
+manufacturing down 70%
+construction 80%
+
+unemployment 24%
+england: 37% unemployment
+
+people w/ jobs were mostly part time
+
+asset values plummeted
+prices declined by close to 35%
+
+
+
+polcymakers were fucking up
+
+in theory and in measurement
+
+theory: didnt know the causes of the problems (why: prodution going down, people not buying, high unemployment, huge deflation)
+
+measurement: didnt know the magnitude of the problem (no good data/stats)
+
+2 thingss came out of the GD:
+theory: keynesian economics (macroeconomics)
+measurement: simon kuznets developed the GDP
+
+Objective: polcymakes\rs want to have an idea about the amount of *all* the goods and services produced by the domestic factors of production over a certain period of time
+
+Why?
+    1. Employment (man-hours)
+    2. Income
+    3. Standards of living (quality of shit we consume)
+
+Definition of GDP
+
+Total market value of all the final goods and serveices produced by the factors of production located in a country during a certain period of time
+
+AKA all the shit we sell
+
+ridiculously simple and ridiculously important
+
+GDP = P1*Q1 + P2*Q2 + P3*Q3 + ...
+
+non-market productions are not included (no employment and income generated, hard to measure and include)
+
+household non-market production (AKA my friend pays me $100 to fix his garage)
+    this goes into the GDP
+selling shit on craigslist
+    this goes into the GDP
+illegal activities
+    NOPE cause not reported
+only goes into the GDP if you put it on your tax return
+
+
+FINAL GOOD: car, bread, computer, etc
+NOT FINAL GOOD: flour egg, yeast, tire, battery, CPU
+
+we want to include ALL the goods and services produced, but only ONCe
+
+SERVICE: an act of helpful activity
+
+why count in services?
+    more services -> higher life standard
+
+count in only the NEW production. why?
+
+sell ur car on craigslist to your friend -> doesnt go into GDP cause its not produced
+    if you pay a salesman to do it for you then the price you paid the salesman goes into the GDP tho
+
+sevond-hand goods: NO GDP INCLUSION
+
+buy book from store for $250, sell it back for $5, they sell it for $55.
+
+$250 for book + $50 service ($55 - $5) for selling it goes into GDP
+
+aasset transfer: NO GDP
+capital gains: NO GDP
+
+if you buy new stock in IBM its not put into the GDP
+
+FACTORS OF PRODUCTION: land, labor, capital
+    the things we use to produce a physical thing
+
+LOCATED IN A COUNTRY: the shits on U.S. soil
+nationality of the factors is not important
+aka japanese company puts a bunch of shit here and makes shit -> u.s. GDP
+
+Should we count in the imports?33
+    we import chardonay from france,
+    we pay $2M french wine.
+        we do not include it in the U.S. GDP
+        the factors of production are located in France
+
+DURING A CERTAIN PERIOD OF TIME:
+   Why does that matter?
+        production takes time
+        in this class it will only be one year
+
+
+FLow Variable
+    variable that we need a time frame to measure
+    "flows over time"
+    spend becomes flow
+    examples:
+        how much you spend last month
+        income
+
+Stock variable
+    variable that we can measure at one point in time
+    example:
+        how much money do you have in your pocket right now
+        how many tractors are on the farm
+
+
+
+What is excluded from GDP?
+
+1. Imports
+    production not on our soil
+2. Second-hand goods
+    no production
+3. Asset transfers
+    no production
+4. Capital gains/losses
+    no production
+5. Household non market activities
+    meh
+6. Illegal activities
+    not reported

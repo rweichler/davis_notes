@@ -1,0 +1,87 @@
+started at 6:35, gonna end at like 7
+
+
+chapter 10: money market
+
+Supply of Money:
+
+in the case of money, nobody sells money and nobody buys money
+there are a bunch of people who sell apples + people who buy apples.
+
+the supply of money is the money you actually hold at a point in time (D1)
+
+demand of money is the amount of money you're willing AND ABLE to hold
+ABLE = you can sell all your shit and own it
+
+like if i have like 50 teslas at $100k each, then my demand for money can be $5M or less
+the demand for money cannot exceed the total value of your assets
+
+assets = money + bonds + stocks + other = total wealth
+
+ur demand for money cannot exceed your total wealth
+
+Theories of Demand for Money
+Theories that explain why people want to hold the amount of money they do
+
+why do people wanna hold more money sometimes and less money some other times?
+
+1. Classical (Cambridge) THeory
+2. Keynesian Theory
+
+CLASSICAL THEORY
+
+-Money is a medium of exchange. People use money to buy goods and services
+-So demand for money depends on the value of goods and services produced, i.e., nominal GDP (P*Y)
+        |-------> this is the only time when nominal GDP becomes important in your life
+
+if we produce more then you want to hold more shit
+
+demand for money bears a constant relationship to the nominal GDP model
+by the same %
+
+its the same relationship as that velocity equation from last lecture
+M*V = P*Y
+
+Keynes said "not so fast baby"
+
+
+KEYNESIAN THEORY
+
+money is not just the medium of exhange tho, its also an asset!!!!!
+
+there are 3 motives to hold money:
+1. transactions motive
+2. precautionary motive
+        like in case ur arm breaks off
+3. speculative motive
+
+lets ignore all the other assets
+two competing assets in ppls portfolios
+money and bonds
+should i hold more of which?
+
+two opposing forces in peoples decisins
+convenience of liquidity
+interest income from bonds
+
+if interest rates on bonds increases, do you wanna hold more money or less?
+    more
+
+money = transaction and precautionary motive
+bonds = speculative motive
+
+if R (interest rate) of bonds increases you wanna hold more bonds and therefore less money
+if R goes down then vice versa
+
+real GDP up -> demand for money up
+price up -> demand for money up
+
+^ both of those for both classical and keynesian model. precautionary motive.
+
+Img 998
+
+^ dats the interst rate of bonds vs money held
+
+if price goes up double then u double the money
+
+img 999

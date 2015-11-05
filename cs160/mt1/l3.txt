@@ -1,0 +1,74 @@
+VERSION CONTROL
+    Revision Control System
+        1982
+        Pros:
+            Revisions as diffs
+            Works with bins
+            Supports branching
+        Cons:
+            Only single files
+            branches suck
+            locks files for concurrency
+    Concurrent Versions System
+        1990
+        Pros:
+            networking
+            not just single files
+            concurrency via merging b4 commit
+        Cons:
+            branching is expensive
+            doesnt handle cd's well
+            not distributed, all changes published
+    Apache Subversion
+        2000
+        Centralized repo
+        Pros:
+            Commits are atomic
+            supports renamed, copied, etc files
+            inexpensive branching
+            allows file locking
+        Cons:
+            Sometimes get confused with renames
+            Tagging is shitty
+    Mercurial
+        2005
+        Pros:
+            Decoupled version control
+            Fast learning curve
+            History is sacred (can be con)
+        Cons:
+            Can only merge from 2 parents
+            No rebasing (history is sacred)
+    Git
+        2005
+        Pros:
+            Decoupled version control
+            Allows rebasing?
+            Can merge with multiple parents
+        Cons:
+            Steeper learning curve
+            History isn't sacred?
+            need to do `git gc`
+
+
+Tags
+    git tag -a tagname
+    git tag -a tagname hash
+    git push -tags
+    git tag -l
+    git branch -a
+    git push -u origin branchname
+    git branch -d branchname
+Tests
+    Unit test = part of code
+    integration test = integrated parts of code
+    functional test = end to end
+testing options
+    dont do it
+        lol naw
+    write a test program
+        might b hard and shitty
+        but hella specific
+    use a framework
+        yeeee
+        but hella general

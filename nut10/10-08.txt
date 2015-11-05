@@ -1,0 +1,148 @@
+ENERGY
+
+need to figure out a way to quantify the energy value of your food
+potential energy in chemical bonds are released -> HEAT
+
+if we eat it, we assume we get the same shit, not really but kinda the same
+
+Calorie = 1000 calories = 1Kcal
+1 Kcal = Heat needed to raise 1 liter of H20 1 degree Celsius
+
+bomb calorimeter
+light food on fire and measure temperature change
+
+if you put in pure:
+    carbs:   4.2 Kcal/g
+    protein: 5.7 Kcal/g
+    fat:     9.4 Kcal/g
+
+
+How Much Energy Do You get When You Eat Carbohydrate?
+PE: cabohydrate (4.2 Kcal/g) -> 5% in digestion is lost in stool -> body gets 4Kcal/g
+fat -> 5% lost in stool -> 9 Kcal/g
+protein -> 10% lost in stool (15% if you're vegan) -> energy loss in urine (N -> urea) -> 4Kcal/g
+what the body gets is called the Physiological Fuel value
+    Carbs & Protein: 4Kcal/g
+    Fat:             9Kcal/g
+
+the Calories on Nutrition Facts is for Physiological Fuel value (not PE)
+
+fiber has 0 calories per gram. it only helps you poop. it might have PE but no Physiological Fuel value
+water, cholesterol, vitamins and minerals have no calories
+
+iWhy do we need calories?
+
+1. Basal metabolic rate (BMR)
+    basic bodily functions
+    your brain thinking
+    heart pumping blood
+    breathing
+2. Activity (equal to or less than BMR)
+3. Thermic Effect of Food (TEF)
+    digestion and shit
+4. Growth (maybe not for adults)
+
+Calorie Balance
+Calorie intake vs. Calorie output
+Undereating vs overeating
+
+3500 calorie excess  = gain 1 lb.
+3500 calorie deficit = lose 1 lb.
+
+Computing BMR
+
+Body weight taken into account
+
+Men: 1kcal/(kg * hr)
+Women = 0.9kcal/(kg * hr)
+
+guys need more bcuz of more muscle
+
+Example:
+    Female -- 55kg
+    0.9 * 55kg * 24hr/day = 1188kcal/day
+
+Factors That Change BMR
+
+1. Age: with increase in age, BMR decreases > 20 years, decrease 2-3% every 10 years
+2. Fasting: decreases BMR ~10-20%
+    happens within 24 hours
+3. Exercise: increases BMR (variable effect)
+
+Do supplements help boost your metabolism?
+    yeah... kinda
+    green tea does a lil bit
+
+Energy requirement compontnt: Activity
+
+Category                = % BMR added
+-------------------------------------
+Sedentary                   +  30%
+Light                       +  50%
+Moderate                    +  70%
+Strenuous                   + 100%
+
+
+most ppl are sedentary
+light = bike to class
+moderate = every day at gym, bike to class
+strenuous = straight up caveman, competitive sports 5+hr practice per day and shit, construction worker
+
+Thermic Effect of Food (TEF)
+Energy needed for:
+    Digestion of food
+    Assimilation of food
+
+5-10% of total caloric intake
+TEF approx. 50 -> 200kcal
+
+Compute to kinda get an idae
+5% of the sum (BMR + activity) = TEF
+example: BMR = 1000kcal/day
+         activity (light) = 500kcal/day
+
+TEF = 5%(1000 + 500)
+    = .05 (1500)
+    = 75kcal
+
+EX: What is her energy requirement?
+
+Female -- 52kg, strenuous activity
+
+BMR =       1123 kcal
+Activity =  1123 kcal
+TEF =       112 kcal
+---------------
+total       2358 kcal/day
+
+chapter 3 is DONEEEEEEEE
+
+CARBOHYDRATES
+Structure
+Food sources (peach vs potato)
+Metabolism
+
+definition: hydrated water carbon
+traps the suns energy as water and carbon
+
+Function: energy nutrient, 1/2 total calories. In body, energy crucial for brain, muscles
+
+Chemical Structure
+3 levls--all in foods and body
+1. monosaccharides
+2. disaccharides
+3. polysaccharaides
+
+Monosaccharides
+one sugar
+simple carbs, simple sugars
+6 carbon ring = sugar
+Glucose - basic sugar unit (blood, starch, 1/2 table sugar)
+Fructose - fruit sugar, sweeter
+Galactose - comes from lactose - 1/2 milk sugar
+
+Disaccharides
+two sugars
+simple carbs, simple sugars
+Sucrose - table sugar, brown sugar (glucose + fructose)
+

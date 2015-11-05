@@ -1,0 +1,74 @@
+complete protein sources:
+eggs, poultry, beef, fish, soy, dairy, protein powder
+incomplete:
+nuts, rice, wheat, seeds
+
+you can combine incomplete protein sources to get your good amount of daily value
+
+2 ways to figure out if you have a good protein source:
+1. protein efficiency ratio (PER)
+    feed diet with test protein to lab rats
+    measure how much weight is gained relative to food eaten
+    PER = (weight gained)/(protein eaten)
+    fish has the highest score
+2. chemical score
+    get % of each of the 9 essential amino acids by weight for egg white
+    get % of each essential amino acid by weight for w/e you're testing against
+    find the weakest link (limiting amino acid)
+    w/e that is, is your answer. multiply by 100
+    egg white has a score of 100
+    fish has like 95, soy has like 92 etc etc
+    for example white flour has a score of 30 and has lysine as a limiting acid
+
+WHEY HAS HIGH LEUCINE PROTEIN
+    leucine is good for starting the synthesis of proteins
+    good post-workout
+
+
+.8g /Kg per day is NEEDED
+11% protein must be essential amino acids
+
+.8g/Kg per day is also needed for infants
+but 40% protein must be essential amino acids
+
+the reason is because the child is growing
+
+like, an adult could just eat bread all day and get their need
+but infants cannot do that because you'd need to eat a shit ton of bread
+like 4x as much. thats already a shitton for an adult
+
+strict vegetarian == vegan
+    no milk, egg, fish, poultry, meat
+    have been practiced for thousands of years
+
+health considerations:
+    vegetable protein based diets may decrease risk for chronic diseases compared to animap protein based diets.
+    heart disease, certain cancers, type 2 diabetes
+    vegetarians tend to weigh less
+    you live longer if you're vegetarian
+    you live longer if you're vegetarian + eat fish
+    but it might be because you're more conscious of your health, like u exercise more n shit
+    
+CHAPTER 3: ENERGY
+Energy in foods
+Energy requirement for your body to function
+
+Ability to do work:
+    Metabolic (building a muscle)
+    Physical (going across the street)
+
+Food -> Carbohydrate
+        Protein
+        Fat
+
+These all have carbon (C)
+Contain potential energy
+
+Lavoisier made a comparison between fire and a living animal
+
+it takes in oxygen (air) and carbon (from bread), releases CO2, and creates heat
+
+melted ice to measure the energy
+put a mouse next to it or the bread next to it or w/e
+
+

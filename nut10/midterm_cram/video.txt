@@ -1,0 +1,305 @@
+fat is a trycliceride
+    glycerol + 3 fatty acids
+
+fat:
+    energy
+        9 kcal/gram
+    regulation
+        essential fats - prostaglandins (nerves)
+            lineleic and linelenic (18:2, 18:3)
+        hormones - sex hormones
+    structure
+        insulation
+        membrane structure
+
+2 categories:
+    saturated
+        no double bonds
+            C16, C18 (lamitic, stearic)
+        food sources
+            beef, dairy, whole milk
+    unsaturated
+        one or more double bonds
+        mono (C18:1) or poly (C18:2, C18:3, fatty acids)
+        ex:
+            mono:
+                olive oil
+            poly:
+                sunflower oil, soybean, corn oil
+
+essential fatty acids
+    cannot make in sufficient quantities
+    18:2 linoleic
+    18:3 linolenic (omega-3) fatty acids
+    sources:
+        corn oil, sunflower oil, safflower oil (18:2), fatty fish,tuna  salmon, flaxseed oil/meal (18:3)
+
+hydrogenation
+    add hydrogens to double bonds of unsaturated fatty acid
+    longer shelf life
+    unsaturated are unstable liquids
+    saturated are way more stable
+    food sources:
+        margarine
+        crisco
+        cookies made with margarine
+    it decreases essential fatty acid content
+    corn oil (high omega 6) -> GG.
+    liquid -> solid
+    forms trans fatty acid
+        detrimental to heart health
+    doesnt change caloric content or cholesterol content
+        why? cholesterol is not a fatty acid
+
+animal vs plant
+
+ANIMAL FAT
+    more saturated than unsaturated
+    solid at room temp
+    por source of essential fatty acids
+    exceptions -
+        fish oil, salmon, tuna
+VEGGIE FAT
+    unsaturated more
+    liquid at room temp
+    good source of essential fatty acids
+    exceptions -
+        coconut oil, palm oil
+        tropical oiils and are more saturateed ^
+
+butter = saturated
+corn oil = polyunsaturated (18:3)
+avocado = monounsaturated
+salmon = polyunsaturated (omega 3)
+meat = saturated
+margarine = trans fat
+
+which foods provide 18:2 / 3?
+salmon = 3
+cocunot oiil = saturated NOPE
+olive oil = monounsaturated NOPE
+corn oil = 2
+walnuts = 3, omega-3
+
+cholesterol?
+butter? yea saturated
+cocunot oil? no saturated
+palm oil? no saturated
+cheese? yea saturated, from animal
+margarine? comes from vegetable fat, no cholesterol
+
+
+fat insoluble in water, influences digestion absorption and transport
+
+
+DIGESTION
+starts in small intesting
+
+bile is produced in the liver, stored in gallbladder
+
+once digested, tryclicerides are broken down by bile
+bile is basically a soap basically
+
+combo = miscelle
+
+chyylomicron NEEDS TO BE FORMED IN INTESTING CUZ ITS SOLUBLE
+enters circulation
+**** chylomicron goes from intesting to liver
+
+components of lipoprotein:
+    fatty acids, cholesterol, protein (makes it soluble)
+
+
+fat transport
+    chylomicron comes from intestine
+    it can drop of a trygliceride to a fat or muscle cell
+    or it can go to the liver and goes out as VLDL
+    then the VLDL can drop off trycliceride to cells, then
+        it turns into a LDL
+    job of LDL? drop off triglycerides to cells
+        drops off cholesterol
+    also from liver = HDL
+        extra cholesterol from cells -> liver
+
+CHOLESTEROL
+    fatt wax-like substance in the body that performs essential functions:
+    membrane structure (LDL drops it off for structure)
+    precursor to bile acids (why it needs to come back to liver)
+    precursor to sex hormones
+    precursor to vitamin D
+    NOT an essential nutrient (we can make it in our bodies)
+    non-egg food source?
+        liver
+        chicken
+        milk, cheese, etc
+        any animal product
+
+ENERGY METABOLISM
+consideration of energy needs
+1. following a meal
+2. several hours after eating
+3. 24-36 hours fasted
+
+glycogen stores for 24-36 hours
+    broken down into glucose
+    metabolized for energy
+    broken down and oxidized for energy
+    and into 3 carbon units
+amino acids
+    amino acid pool can be used for energy
+    also into 3 carbon units
+    you piss out the nitrogen
+
+
+what hapepns after a meal?
+    energy nutrients abundant
+    need to be put into storage for later
+    carbs:
+        glucose is stored as glycogen in muscle and liver
+        excess is converted to fat and put in fat stores
+    fat:
+        tryglicerides and fatty acids
+        also stored as fat
+    protein:
+        broken down into amino acids
+        first to replace your protein needs
+        any leftover, nitrogen stripped off and stored as fat as well
+several hours after eating?
+    they're stored away now
+    can be used
+    glycogen is broken down into glucose
+        mostly for brain energy, needs glucose
+        can be used for other shit
+    fat stores
+        turned into fatty acids and energy
+    protein?
+        no protein!!!!!!
+24 hours after fasting
+    glycogen has run out
+    glucose has to come from somewhere
+    you're gonna use your body protein
+        broken down into amino acids
+        nitrogen ends up in urine
+    fatty acids can be used for other tissues (not brain)
+        ketones (dont want too much?)
+            they are made from the fatty acids
+            byproduct of metabolism
+            some is oxidized immediately, but not all of it
+            can be used for energy but should nt be in excess
+
+coronary artery disease: risk factors
+    cigarette smoking
+    hypertension
+    obesity
+    increasing age
+    male sex
+    inactivity
+    dietary factors
+    heredity
+
+dietary guidelines for prevention and treatment of heart disease
+    total fat 25-35% of total calories
+    saturated fat <7% of calories (limit trans fat)
+    dietary cholesterol < 300mg/day
+        limit for blood cholesterol < 200mg
+    salt: 1500mg of sodium
+    fiber: 25g
+    limit alcohol
+
+
+2350 calorie die with 95 grams of fat and 35 grams of saturated fat
+are you following recommendations?
+
+35% fat calories ---> grams
+< 7 % saturated fat calories --> grams
+
+2350 calories * 35% = 822.5 calories MAX as total fat
+
+822.5cal/9cal/g = 91.4 grams of fat MAX
+
+
+SO YOU'RE FUCKED!!!!!!!
+
+same thing for saturated fat, but multiply by 7% saturated
+
+you end up getting 18.3 saturated fat MAXXXXX
+
+ SO YOU'RE ALSO FUCKED!
+
+OBESITY
+
+> 20% above desireable
+> 25% men
+> 35% women
+
+**** BMI >= 30
+
+normal = 18.5-24.9
+overweight = 25-29.9
+*** obese >= 30
+
+*** waist measurment used as indicator
+men > 40 inches, women > 35 inches
+
+METABOLIC SYNDROME
+clustering of at leaset 3 out of the folliwng 5 clinical measurments
+    abdominal obesity
+        (measure the wast)
+    high fasting blood glucose
+    high fasting blood triglycerides
+    hyperdension (high blood pressure)
+    low HDL
+
+FAT TISSUE DEVELOPMENT
+Critical periods: increase in fat cell #
+    3rd trimester to 1 year (for fetus/infant)
+    adolescent growth spurt (12-14 yrs)
+
+WEIGHT GAIN
+    during critical period can increase in cel # and size
+    during adult years results in increase cell size and sometimes cell number
+
+WEIGHT LOSS = decerases cell size but NOT cell number
+
+OBESITY HEALTH RISKS
+    cardiovascular disease
+    hypercholesterollemia
+    hypertension
+    diabetes
+    cancer (certain types)
+    osteoarthritis
+    emotional disturbances (discrimination issues)
+THEORIES OF THE CAUSE OF OBESITY
+    calorie imbalance
+        kcal in > kcal out
+    inactivity
+        kcal out < kcal in
+    genetic influence
+        40-60% of all obesity is due to genetics,
+        the chance of becoming obese is greater if
+        a parent is obese
+    thrifty metabolism
+        decreased BMR
+        kcal out < kcal in
+    set point
+        the body strives to maintain fat cell size/mass;
+        if the fat cell size reduces, mechanisms
+            encourage fat cell "filling" and fat gain
+        chemical that plays a role?
+            hormone..... leftin is released and sends
+            the signal, turns off the hunger signal
+    meal pattern
+        skipping meals may increase fat stores by encur
+    meal composition
+        high fat diet
+OBESITY TREATMENT
+    energy restricted diet
+        (reduced calories)
+    behavior modification
+
+BULIMIA:
+    EAT HELLA, STOP EATING HELLA, over and over
+    potassium loss
+    fat-soluble vitamin loss (use of laxatives)
+    teeth erosion due to stomach acid
+    heart and organ failure

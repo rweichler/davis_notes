@@ -126,7 +126,7 @@ GDP and Welfare: Is GDP a good indicator of the welfare (wellbeing) of a nation?
 3. Silent about distribution of GDP
 4. Includes things that we don't consume (like what?)
     (includes anti aircraft misiles)
-5. Excludes things that we dont consume (like what?)
+5. Excludes things that we do consume (like what?)
     imported french wine and shit
 6. "Bads" are not accounted for (like what?)
     weed, LSD, coke, AK47s shit like that
@@ -136,7 +136,7 @@ GDP and Welfare: Is GDP a good indicator of the welfare (wellbeing) of a nation?
 Consumer Price Index
 
 CPI in a year = (cost of buying the basket in that year) / 
-                (cost of buying the basket in 1984-84)
+                (cost of buying the basket in 1982-84)
                         * 100
 
 GDP deflator is a fantasy word for the average price of all the goods that are in the GDP

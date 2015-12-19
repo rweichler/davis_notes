@@ -1,1 +1,0 @@
-lipo -create blah_armv7.dylib blah_arm64.dylib -output blah.dylib 

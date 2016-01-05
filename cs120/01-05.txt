@@ -1,0 +1,97 @@
+Tue Jan  5 13:49:30 PST 2016
+
+1. Foundation of computing
+
+State machines, pushdown automatic, turing machines
+
+church-turing thesis
+    turing machine is an abstract mathematical model for computing
+    what we know as computing is what turing machines can compute
+    we take it on faith, theres no proof for it?
+
+limits of computing
+    things we fundamentally cannot do
+    when we analyze what a turing machine and what it can do then
+    its lke oh ok we can never possibly do this
+    a lot of them arent terribly difficult to explain
+    Mathametician named David Hilbert (prolific around the turn of the 20th century)
+    he gave this address at the turn of the 20th century
+    "here are all the most important mathematical questions we should work on in the next 100 years"
+    Hilbert's 10th Problem
+    Solvability of Diaphantine Equations
+        its something that looks a lot like a polynomial
+        ex: 3x^2 + 2x = 0
+            4x^10 + 8y^6 = 0
+
+    10th problem: find an algorithm to determine if a diaphantine equation has a solution (integer solutions)
+    
+    nobody found an algorithm
+
+    david hilbert assumed that its reasonable to ask
+    but there is no algorithm for it
+
+    ~1970 people finally resolve this
+    Davis, Putnam, Robinson, Matisguerick
+        proved that no such allgorithm can exist (caveat: algorithm = something a turing machine can compute)
+
+
+Other examples that are more down to earth:
+    Software verification (problem we're not gonna solve)
+        knowing program on any input does the right thing
+            question is too general, you need to narrow it down before answering it
+        Halting problem (we'll do this in class)
+            Q: on a given input, will a program stop or run forever (infinite loop)?
+        
+Tue Jan  5 14:04:21 PST 2016
+
+These are undecidable proglems (loosely means not solvable)
+
+State Machines
+    Loosely:
+        Directed graphs (analogy)
+        Start state ("vertex")
+        transition states depending on input ("arcs"/"edges")
+ex: small binary adder
+    gonna have a not-carry state and a carry state
+
+
+    ____________ in:1,1 out:0   _________________________
+    |           |-------------->|           | in: 0,1;1,0|
+    |           |               |           |  out: 0    |
+    | NO CARRY  |               | CARRY     | in: 1, 1 out: 1
+    |           |               |           |            |
+    |___________|<--------------|___________|<___________|
+       | in:0,1^   in 0,0 out:1
+       |out:1  |
+       |in:0,0 |
+       | out:0 |
+       |_______|
+
+the second part of the inner loop is actually a separate loop
+but i was too lazy to draw it out in text ^^^^^
+
+why study state machines?
+    -we dont wanna start at turing machines (that would be awful)
+        -the idea is to slowly build
+    -state machines have relationships to regular expressions, programming languages, compilers
+Tue Jan  5 14:20:01 PST 2016
+
+LOOK OVER 20 SHIT this class will be hard
+sit in on the class
+
+How will we study state machiens?
+    4: Formal language theory
+
+**side note:dont use intuition when writing homework/programs, only to explain it to others
+
+______
+
+Def: Alphabet <sigma> or <gamma> to denote this (typical solution)
+
+ex. <sigma><sub B> = {0, 1} (binary alphabet)
+    <sigma><sub eng> = {a, b, ..., z, A, ..., Z} (latin alphabet)
+
+Def: A symbol of an alphabet <sigma> is an elemebt of <sigma>
+ex. 0 is a symbol of <sigma><sub B>
+
+

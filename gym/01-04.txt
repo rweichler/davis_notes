@@ -1,0 +1,4 @@
+Mon Jan  4 19:44:59 PST 2016
+
+heart rate 132
+max deadlift 215

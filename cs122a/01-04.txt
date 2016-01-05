@@ -1,0 +1,18 @@
+
+Mon Jan  4 11:29:44 PST 2016
+
+prob:compute nth fib number
+def: F0=0, F1=1, Fn = watever
+alg 1:
+by definition, fn = fn-1 + fn-2
+       and keep expanding it
+
+express the idea in psuedocode
+psuedocode
+Mon Jan  4 11:44:41 PST 2016
+
+Complexity
+
+T(n) = T(n-1)+T(n-2)+1
+
+exponential growth: not good

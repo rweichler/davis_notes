@@ -95,3 +95,68 @@ Def: A symbol of an alphabet <sigma> is an elemebt of <sigma>
 ex. 0 is a symbol of <sigma><sub B>
 
 
+Tue Jan  5 14:27:26 PST 2016
+
+Def: a string over an alphabet <sigma> is a finite sequence (orde rmatters) of symbols
+-> In general, a string w over <sigma> is is w1w2'...'wn with wi <within symbol <sigma> for all 1 <= i <= n and n >= 0
+
+ex. x = 1011 is a string over <sigma><sub B>
+
+Def: The Length of a string w is the number of symbols in it, denoted |w|
+ex. |x| = 4
+
+Def: The *empty string* (typically denoted <epsilon> or <lambda>, prof will be using <epsilon>) is the string of length 0. (not *a* string, *the* string.... theres only one)
+
+Caution: We often abuse this notation and we use <epsilon> almost like a symbol
+
+the state machine can take an epsilon transition aka it takes nothing (??)
+Remark: the alphabet we study does not have <epsilon> (the empty string) as a symbol
+
+Def: <sigma><super *> = set of all strings over <sigma>
+
+        = {w1w2'...'wn n>=0 wi <within> <sigma> for all 1 <= i <= n}
+
+    note <epsilon><within><sigma><super *> alwayss since n=0 implies the string is the empty string
+
+    Note: if n = 0 then there are no 'i' between 1 and n so we dont check the "wi <within> <sigma> for all 1 <= i <= n" condition, it is always true. We call this 'vacuously true'.
+
+ex. <sigma><sub B><super *> = {<epsilon>, 0, 1, 00, 01, 10, 11, 000, ...}
+            ^^^^ this is not the power set (almsost but not exactly)
+
+
+Def: A *language* over <sigma>: Any subset of strings over <sigma>
+
+
+Ex. {0, 1, 111, 01} <= <sigma><sub B><super *> so it is a language over <sigma><sub B>
+
+Example: <sigma><sub num> = {0, 1, ..., 9, '-', '.'}  (12 symbols)
+
+ex. Integer <fancy Z> = {..., -2, -1, 0, 1, 2, ...} is a language over <sigma><sub num>
+
+
+q from student: are language designed to narrow down our input?
+    fuck couldn't pay attention to answer
+
+could you have a language over multiple alphabets?
+    naw just combine the alphabets
+
+ex. -2 <within> <fancy Z><sub STR>
+    Q: What is the length of -2?
+    A: 2 ('-' and '2')
+
+ex. Note -1.9 <within><sigma><sub NUM><super *> \ <fancy Z><sub STR>
+ the \ means NOT
+
+Recall: A\B = |x| such that x <within> a and x <not within> B
+
+
+
+
+------> Our main interest throughout the quarter:
+            Given a language A over an alphabet <sigma>, can I build a state machine / pushdown autotama / turing machine that recognizes A?
+
+        recognizes means: If w <within> <sigma><super *>, my machine definitevely tells us ocorrectly that w <within> A or not.
+
+
+
+it turns out that if we find things that are just limited to this study then we'll find shit for  the general study???

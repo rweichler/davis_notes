@@ -1,0 +1,94 @@
+Thu Jan  7 13:35:49 PST 2016
+
+Talking more about strings and languages
+
+Example:        w = foobar
+        some prefixes: foo, f, <epsilon>
+        some suffixes: bar, ar, r, <epsilon>
+        some substrings: OBVIOUS
+
+
+Formal Definitions:
+Def: Prefix: A prefix of a string
+    w = w1w2...wn is a string
+    x = x1x2...xm such that m<=n and for all i such tthat 1<=i<=m, xi = wi
+
+Def: Suffix: A suffix of a string
+        w = w1w2....wn is a string
+        w<sub k>w<sub k+1>....w<sub n> where
+        1<=k<=n, or is the empty string <epsilon>.
+
+Def: Substring: A substring of a string w=w1w2....wn is a string w<sub i>w<sub i+1>w<sub j>
+                where 1<= i <= j <= n, or is the empty string <epsilon>
+
+Def: Concatenation: Let x = x1x2....xn and y = y1y2....yn be strings, then the concatenatio of x and y is xy = x1........xny1......ym
+Notation if k is a natural number, x<super k> = x*x....*x   <---- k times
+
+if |x| = 3 and k = 4 then |x<super k>| = 12
+
+ex. x = cat, k = 2 then x<super k> = catcat
+
+
+Goal: Create Mahines to Accept/Recognize languages (recognize to be defined later)
+
+ex. <sigma> = {a, b} and A = { w | w<within><sigma><super *> and ab is a substring of w}
+
+ex. bbab<within>A, because the substring portion is ab
+    bbba<not within>A, because theres no substring ab
+
+
+
+Our state machine will: [analogy]
+1) start running at _some state_ (initial state) [booting up]
+2) Input is read left-to-right one symbol at a time [parsing]
+3) After each symbol, transition to a new state []
+
+
+                   -b--                       -a--                  --a, b--
+                  |    |                     |    |                |        |
+                  |    V                     |    V                |        V
+START--------> [ q<sub b's> ]----- a ------>[ q<sub a> ]---- b ----->[[ q<sub ab> ]]
+
+^
+------- usually an arrow that comes from nowhere, not START
+
+if you get to [[q<sub ab>]], then accept the state (string is in the language)
+
+the [[ ]] is an accept state, the [ ] is not
+
+Comment: q<sub b's> = The machine has seen 0 or more b's
+a<sub a>: The machine has seen 0 or more b's followed by 1 or more a's
+q<sub ab>: The machine has seen ab as a substring
+
+Notes: entire string must be read (consider the language { w | w<within><sigma><super *> and w wends w/ b } )
+                                    |------> exercise: construct this machine (DFA)
+
+Def: Let M be a machine over an alphabet <sigma> and w<within><sigma><super *>, then M _accepts_ w if, after processing _all_ of w, M ends in an accept state.
+
+Def: The _language_ of a machine M is the set of strings it accepts. It is denoted L(M).
+    L(M) = {W <within><sigma><super *> | M accepts w}
+
+____________
+
+Definition (define formally what our state machine is): [analogy]
+
+A deterministic finite automata (DFA) is a 5-tuple M = (Q, <sigma>, <delta>, q<sub 0>, f) [tuple = struct]
+where :
+
+1) Q is a set of states [data member]
+2) <sigma> is an alphabet [data member]
+3) <delta>: Q x <sigma> -> Q is a _transition function_ [member function]
+4) q<sub 0> <within> Q is the start state [data member]
+        (this is just a convention, it could be <q sub b's>
+        but there ALWAYS HAS to be a start state)
+5) F <subset> Q is the set of accept states [data member]
+
+Notes: M may have up to |Q| accept states
+
+Q: If the state is an accept state, is there any string we can guarantee to be a language?
+    Yes, <elpsilon>
+    If q<sub 0> <within> F, then <epsilon> <within> L(M)
+
+Reminder: Q x <sigma> = { (q, a) | q <within> Q and a <within> <sigma> }
+
+ex.

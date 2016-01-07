@@ -43,7 +43,7 @@ Our state machine will: [analogy]
 2) Input is read left-to-right one symbol at a time [parsing]
 3) After each symbol, transition to a new state []
 
-
+                    LOOP b                    LOOP a                LOOP a,b
                    -b--                       -a--                  --a, b--
                   |    |                     |    |                |        |
                   |    V                     |    V                |        V
@@ -91,4 +91,65 @@ Q: If the state is an accept state, is there any string we can guarantee to be a
 
 Reminder: Q x <sigma> = { (q, a) | q <within> Q and a <within> <sigma> }
 
-ex.
+Thu Jan  7 14:35:52 PST 2016
+
+ex. Writing our machine above as a DFA, formally.
+    M = (a, <sigma>, <lowercase delta>, q<sub 0>, F) where
+
+1) Q: { q<sub b's>, q<sub a>, q<sub ab> }
+2) <sigma>:  {a, b}
+
+3) <delta>    |    a             b
+   -------------------------------------------
+   q<sub b's> | q<sub a>         q<sub b's>
+   q<sub a>   | q<sub a>         q<sub ab>
+   q<sub ab>  | q<sub ab>        q<sub ab>
+   ------------------------------------------
+(example: if state is in q<sub b's> and the next symbol is a, transition to state q<sub a>)
+
+4) q<sub 0> q<sub b's>
+5) F = { q<sub ab> }
+
+Our drawing of M is called a _state diagram_
+
+
+
+More interesting example that's harder to think about:
+
+ex. Construct the state diagram of M such that
+
+    L(M) = {abwb<super 2> | w <within> {a, b}<super *> } (i.e.: start with ab, end with bb, just b is squared)
+
+    (Implicitly, alphabet is {a, b})
+
+    ex: abbb <within> L(M), ababb <within> L(M)
+
+
+                                                      LOOP a  <----a-----
+----->[q<sub 0>]-----a----->[q <sub a>]-----b----->[q<sub ab>]-----b----->[q<sub abwb>]
+           |                 |                           ^                  |
+           b                 a                           |                  |
+           |                 V                           |                  b
+           ----> [q<sub reject>]                         |                  |
+                      LOOP a,b                           |                  V
+                                                         a -------------  [[q<sub abwb^2]]  LOOP b
+
+q<sub 0>: read nothing
+q<sub a>: read a, nothing else
+q<sub ab>: read ab, and then some string of a's and b's
+q<sub abwb>: read ab, then w<within>{a,b}<super *>, then b
+q<sub abwb^2>: read abwb^2 (so in our language!)
+q<reject>: I know this string will never be accepted
+
+__________________________________________
+
+Def: A DFA M _accepts_ w = w1w2.....wn <within> <sigma><super *> where M = (Q, <sigma>, <lowercase delta>, q<sub 0>, F) if there are states r0,r1,....,rn <within> Q such that:
+[Start state] 1) r0 = <sub 0>
+[Transition ] 2) <lowercase delta>(r<sub i>, w<sub i+1>)=r<sub i+1> for 0<=i<=n-1
+
+visually:
+[r<sub i>] ---- w<sub i+ 1> -----> [r<sub i + 1>]
+
+[Acceptance ] 3) r<sub n> <within> F (r sub n should be an element of F)
+
+Otherwise, M _rejects_ w. (THIS IS HUGE)

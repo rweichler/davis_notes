@@ -1,0 +1,18 @@
+Mon Jan 11 14:28:19 PST 2016
+
+a(n) = 3a(n+1) + 10a(n-2)
+a0 = 5
+a1 = 11
+
+a) find general solution
+b) find unique solution
+
+
+delta(x) = x^2 + 3x - 10 = 0
+
+a) a(n) = C(1)5^n + C(2)(-2)^n
+b) hella obvious to find C(1) and C(2), plug in for 5 and 11 for a(n), use system of equations to solve
+
+review bubblesort for midterort maybe?
+
+

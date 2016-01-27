@@ -1,0 +1,136 @@
+Tue Jan 12 13:56:30 PST 2016
+
+r<sub i> <in> Q
+
+whats the difference between r and q states?
+    Q is all the ststes in the machine
+    Q<sub 0> through q<sub n> thery're all different things
+    listing R<sub 0> for a sequence, they can all be the same thing (?)
+
+Formally, our computation sequence is:
+r0 = q0, r1 = q1, r2 = q2, r3 = q0, r4 = q1, r4 <not in> F --> is rejected.
+
+exercise: describe r<sub i> is for a<super s>a<super 3k>, k < in <natural numbers>.
+            Accept? Reject?
+
+Def: A DFA M _recognizes_ the language A if L(M) = A.
+Def: A is a _regular language_ if there is a DFA M that _recognizes_ it.
+Is it possible for a DFA to recognize multiple languages? No. The language a DFA recognizes is unique. There's only one.
+
+-------------
+
+Next: Define operations on regular languages and show _closure_ under _regular operations_.
+Closure means: im looking at some set (like languages) if you do that operation then you get a regular language back. example: Integers are closed under addition and subtraction. Integers are closed under multiplication, but not division.
+
+Irregular Operations: their existence means that there are machines more powerful than DFA's
+Regular operations: Assume A, B are languages. 
+    -Union: A <union> B = {w | w <in> A or w <in> B}
+    -Concatenation: A <small oval mid height> B = { w | w=xy s.t. x <in> A, y <in> B }
+    -Kleane: A<super *> = {w|w=x<super k> for some x <in> A and k>=0}
+
+ex. A = {w <in> {0, 1}<super *> | w = a<super 2k> s.t. k>=0}
+        (even # of Q's)
+    B = { w <in> <epsilon><sub 0>, 13<super *> | w has 1 or more 0's and 1 or more 1's }
+
+Note: -A<super *> = A
+      -A <union> B
+          -w = 000 <not in> A <union> B (needs even # 0's -OR- need a 1 also)
+exercise: Prove that (A <union> B) <concat> C = (A <concat> C) <union> (B <concat> C)
+hint: show that the lefthand side is a subset of the righthand side and vice versa
+        (pick w <in> LHS and show w <in> RHS
+
+now we're gonna show that regular languages are closed under a union.
+if we have 2 DFAs, then we can concstruct another DFA that  can show the union of that.
+    given M<sub 1> and M<sub 2>, construct a DFA M where the L(M) = L(M1) <union> L(M2).
+
+    
+ex. <pic>
+
+L(M1) = {w <in> {0, 1}^4 | even # of 0's in w}
+L(M2) = {w <in> {0, 1}^4 | odd # of 1's in w}
+
+Roughly: a0 seen even # of 0's
+b0 seen odd # of 0's
+
+<pic 2>, he forgot the 0 to and from on the bottom 2 states
+
+Q: If we are interested in L(M1) <intersect> L(M2), what are the final states?
+A: F = {(a0, b1)}
+
+------------------
+
+THAT WAS ALL INTUITION ^^^^^
+
+time 2 be formal
+
+Thoerem: Regular Languages are closed under union.
+    Being terse: (A, B regular => A <union> B regular.)
+
+Proof: Formal describeabove construction. (product construction) Suppose M<sub A> = (Q<sub A>, <sigma>, <delta><sub A>, a<sub 0>, F<sub A>) recognizes A
+M<sub B> = (same shit but with B) recognizes B.
+
+Define the product construction M = (Q, <sigma>, <delta>, q<sub 0>, F)
+where: 1) Q = Q<sub A> x Q<sub B)
+       2) <delta>((a<sub i>, b<sub i>), x) = (<delta><sub A>(a<sub i>, x), delta<sub B>(b<sub j>, x))
+
+<pic 3>
+
+3) q<sub 0> = (a<sub 0>, b<sub 0>)
+4) F = {(a<sub i>, b<sub j) | a<sub i> <in> F<sub A> or b<sub j> <in> F<sub B> or both}
+     = (F<sub A> x Q<sub B>) <union> (F<sub B> x Q<sub A>) <---- good exerscise
+
+Reminder: (=>) means if-then direction
+
+Rest of proof: Need to show w <in> <sugma><super *> is accepted by M iff w is accepted by M<sub A> or M<sub B> or both.
+we'll only do 1 direction of this
+(=>) Show if w <in> L(M) need to show w <in> L(MA) <union> L(MB)
+
+need to specify what the string is.
+
+Let w = w1w2......wk; by definition of acceptance, <there is some> accepting computation sequence r0,r1,r2,.....,rk s.t.
+    1) r0 = (a0, b0)
+    2) <delta>(ri, w<i + 1>) = r<i + 1> for 0 <=i<=k-1
+    3) r<sub k> <in> F.
+
+He hasn't even really done anything. He's just copy pasted definitions.
+
+Suppose r<sub i> = r(s<sub i>, t<sub i>), where s<sub i> <in> Q<sub A> and t<sub i> <in> Q< sub B>
+
+We know that s<sub k> <in> F<sub A> or t<sub k> <in> F<sub B> or both.
+Assume s<sub k> <in> F<sub A>. Then s0,s1,....,sk is an accepting computatino sequence for my string w.
+Because
+    1) r<sub 0> = q<sub 0> implies that s<sub 0> = a<sub 0>.
+    2) <delta>(r<sub i>, w<sub i+1>) = r<sub i+1> implies that <delta><sub A>(s<sub i>, w<sub i+1>) = s<sub i+1> [exercisese: flesh this out)
+    3) s<sub k> <in> F<sub A> by assumption.
+
+Now, the other case......we can write all that BS out again or do a shortcut.
+
+Instead of s<sub k> <in> F<sub A>, t<sub k> <in F<sub B>
+instead of s0,s1,....sk, we have t0,t1,......tk.
+(i.e. if i substitute variables, same proof works).
+
+
+OK NOW THE PROOF
+
+
+_similarly_, if t<sub k> <in> F<sub B>, then t0,t1,.....,tk is an accepting computation sequence.
+
+(<=) Exercise: <small square> <---- end of proof (qed) (do the other direction at home)
+
+    Roughly: combine an ac epting computation sequence for M<sub A> with a computation sequence for M<sub B> to get a computation sequence for M.
+
+
+
+Q: Can we do the same for concatenation? (after <pic 2>)
+
+We want:
+
+<pic 4>
+
+run the first machine for a while, then eventually leave my machine and go to my seoond machine (one on the right). So if I have my way and life is perfect, I can just do that. In pic 4. What's the problem with this?I don't know what's on this dotted transition arrow.
+
+What we should put  there is epsilon. But thats gonna introduce non-determinism.
+
+We want an epsilon-transition: transition that can be taken without reading any input symbol. We will formally define this next time.
+
+But the problem is that this is no longer deterministic. :o we need need non-determinism. Next time we will study NFAs.

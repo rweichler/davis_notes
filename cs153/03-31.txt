@@ -1,0 +1,96 @@
+Thu Mar 31 09:14:29 PDT 2016
+
+Access Control Matrix
+    entities
+        subjects: p,q (proccesses)
+        objects: f (file), d (directory)
+    rights
+        basically represented by a matrix
+        subjects on left
+        objects + subjects on top (called entities)
+        put r,w,x etc in each square rwx etc etc etc
+        if its empty then no rights
+
+        "own" right (o)
+            if p has own rights over f,
+            it can change the other permissions
+            for other subjects
+    primitive operations for filesystem rights
+            enter z into A[p, f]
+                give right z to p over f
+            delete z from A[p, f]
+            destroy object f
+    you can also define operations on how the matrix can change
+    like basically functions/commanfds
+    command grant-read(p, o)
+        enter r into A[p,o]
+    end
+    command grant-read(p,q,f)
+        if o in A[o,f] and XXXX then
+            enter r into A[q,f]
+        end
+    end
+
+    you cant have shit before or after the if statement
+    you can do a workaround where you make 2 commands
+    and then just execute them one after the other in
+    a third command tho
+
+    you can test for the presence of a right, but not
+    the absence of a right
+
+    leak of right:
+    before: q not in A[q, f]
+    do some shit
+    after: q in A[q, f]
+
+    HRU result: proved that finding out a systemn is secure is undecidable
+        all it means is you cant do it generically
+        for specific cases you can find it out
+
+
+    you dont represent that matrix in memory because its fuckking huge
+    common representations:
+    Access Control List (ACL) goes column by column
+        ACL(f) = {(p,or),(q,x)}
+        blah blah blah
+
+        owner / user
+        group
+        world / other
+
+        owner: o basically
+        group: blah blah group of users who have ownership
+        world: permissinos for everyone else
+
+        on linux directories:
+        read: list directory
+        write: add/delete files
+        execute: search ONLY, not list
+
+        ACL(d): ((p, w), (q, o), t, ), (*,x))
+        for certain systems:
+            p can write but CANNOT execute (aka search)
+            because it stops once it finds p.
+            if you put * at the front then it would be chil
+        ^ i wrote that before he clarified, this info is
+          pretty much useless. it depends on the manufacturer
+    Capability List (C-List) goes row by row
+        CList(p) = {(f,or),(d,w),(p,rwx),9q,rx)}
+        you basically read it into memory for a process
+        and read from it when you wanna do shit
+        theres problems of copying, like you could copy it
+        in and fuck with it or w/e... how do you fix it?
+        -> tagged architecture (kind of resource intensive)
+        -> segmentator paging write bits
+        -> cryptography
+    Lock-and-key
+        have a file f
+        encrypt it: E_k(f)
+        if you wanna give it to multople ppl,
+            encrypt that key for each person
+            called OR-ACCESS
+        AND-ACCESS:
+            first encrypt using person A's key
+            then encrypt that using B's key
+            then encrypt that using C's key

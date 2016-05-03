@@ -1,0 +1,16 @@
+Thu Jan 28 14:12:08 PST 2016
+
+ctrl+f Fact: C_A has a unique minimal elementwith respect to the number of states
+
+basically the minimal DFA that recognizes a language will basically be the same if you draw it out.. like essentially the same means that you can put the arrows at different angles and name the staes differently but the underlying alrogithm is the same
+
+
+
+
+
+after we read in all of w, then we stop at r_n (Suppose CS(blah) = r.....rn)
+
+delta star is just the antntural function when youre extending delta from sigma to sigma star
+
+
+Note q, epsilon = q for all q because you read in nothing and you're wherte you started

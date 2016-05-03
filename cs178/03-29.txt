@@ -1,0 +1,25 @@
+Tue Mar 29 18:42:06 PDT 2016
+
+implicit (algebraic):
+    x^2 + y^2 = 1
+explicit:
+    y = sqrt(1-x^2)
+parametric:
+    c(t) -> x(t), y(t)
+    x=sin(t)
+    y=cos(t)
+    0 > t > pi/2
+
+parametric is the most OP for 3D modeling
+
+Interpolation
+make a bunch of points, tell the computer to figure out how to make a cbeautiful curve go throguh it
+    C-1 contonious: shitty blocks going through the points you specify
+    C 1: shitty triangle
+    C 1 also?: nice curve
+
+continuity!!!!!
+
+
+3d point interpolation
+

@@ -1,0 +1,46 @@
+Tue Mar 29 09:17:01 PDT 2016
+
+Confidentiality, Integrity, Availability
+
+origin integrity: where did the data come from?
+    authentication
+
+availability
+    first meant fairness. if it was fair to everyone then sa tisfied
+    then it meaned everyone has acccess to it
+    now it means quality of service (QoS) aka amazon doesnt have a shitty connection
+        DDoS attacks
+
+
+threat: something you're worried about
+    first one: disclosure
+    second one : deception
+    third one: disruption
+    fourth: usurpation
+        take over somsething
+
+"insider" problem: snowden
+
+SECURITY MECHANISMS
+    prevention
+    detection
+    recovery
+
+
+know your assumptions -> prolly have good security
+    its the embodiment of trust
+    ofigure out what they're trusting, what they're assuming
+
+
+three mechanisms of security mechanisms
+    secure (nobody can fuck with it)
+    precise (you can do everything thats allowed)
+    broad (neither secure nor precise)
+
+assurance: 4 types
+    specification
+    design
+    implementation
+    maintenence/operation
+
+
